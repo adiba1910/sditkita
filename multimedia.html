@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #34495e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        header a {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #2980b9;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+
+        header a:hover {
+            background-color: #3498db;
+        }
+
+        main {
+            padding: 40px;
+            text-align: center;
+        }
+
+        main p {
+            font-size: 18px;
+            color: #7f8c8d;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #ecf0f1;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Section tambahan untuk gambar dan video */
+        .multimedia-content {
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+        }
+
+        .multimedia-content img {
+            width: 45%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 0 20px;
+        }
+
+        .multimedia-content iframe {
+            width: 45%;
+            height: 300px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 0 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Tombol Kembali ke Laman Utama dipindahkan ke header -->
+        <a href="/">Kembali ke Laman Utama</a>
+        <h1>Multimedia</h1>
+    </header>
+
+    <main>
+        <p>Jurusan yang mempelajari desain grafis, video editing, animasi, dan produksi multimedia.</p>
+
+        <!-- Menambahkan gambar dan video YouTube -->
+        <div class="multimedia-content">
+            <img src="https://nextdigital.co.id/wp-content/uploads/2024/07/desain-web.jpg" alt="Contoh Desain Grafis" />
+            <!-- Pastikan menggunakan HTTPS untuk memastikan kompatibilitas dengan semua browser -->
+            <iframe src="https://www.youtube.com/embed/9jl8a_-Z09I?si=-MTzx8bmG2qlPTd5" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; SDIT</p>
+    </footer>
+</body>
+</html>
